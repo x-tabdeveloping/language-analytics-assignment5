@@ -13,8 +13,8 @@ fig = px.bar(
     data.groupby("project_name")["emissions"].sum().reset_index(),
     y="project_name",
     x="emissions",
-    width=1000,
-    height=1000,
+    width=600,
+    height=600,
 )
 fig.write_image(figures_dir.joinpath("projects_bar.png"))
 
@@ -22,8 +22,8 @@ fig = px.bar(
     data.groupby("project_name")["emissions_rate"].mean().reset_index(),
     y="project_name",
     x="emissions_rate",
-    width=1000,
-    height=1000,
+    width=600,
+    height=600,
 )
 fig.write_image(figures_dir.joinpath("projects_intensity_bar.png"))
 
@@ -33,8 +33,8 @@ for project, project_data in data.groupby("project_name"):
         project_data,
         values="emissions",
         names="task_name",
-        width=800,
-        height=800,
+        width=600,
+        height=600,
     )
     fig.update_traces(showlegend=False)
     fig.update_traces(textinfo="percent+label")
