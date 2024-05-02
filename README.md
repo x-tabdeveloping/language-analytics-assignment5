@@ -47,7 +47,7 @@ To gain insight into which kinds of tasks are most emission-intensive we can loo
 
 | Total Emissions | Mean Emission Rate |
 | - | - |
-| ![Bar Emissions]("./figures/projects_bar.png") | ![Bar Emission Intensity]("./figures/projects_intensity_bar.png") |
+| ![Bar Emissions](figures/projects_bar.png) | ![Bar Emission Intensity](figures/projects_intensity_bar.png) |
 
 #### Most emissions: Assignment 4
 We can see that by far the most emissions were produced by the fourth assignment, where emotion labels needed to be extracted based on passages from Game of Thrones, amounting to twice as much CO2 as the second heaviest task.
@@ -59,7 +59,7 @@ Perhaps implementation of the model in another framework could have made it more
 
 | Assignment4 | Assignment2 |
 | - | - |
-| ![Emotion Arcs]("./figures/emotion_arcs_pie.png") | ![Fake News]("./figures/fake_news_classification_pie.png") |
+| ![Emotion Arcs](figures/emotion_arcs_pie.png) | ![Fake News](figures/fake_news_classification_pie.png) |
 
 #### Second place: Assignment 2
 
@@ -94,7 +94,7 @@ The lemmatizer and parser components could have been turned off to reduce CO2 em
 
 | Assignment1 | Assignment3 |
 | - | - |
-| ![SpaCy processing]("figures/pos_ner_spacy_pie.png") | ![Query Expansion]("figures/query_expansion_pie.png") |
+| ![SpaCy processing](figures/pos_ner_spacy_pie.png) | ![Query Expansion](figures/query_expansion_pie.png) |
 
 #### Lowest emissions: Assignment 3
 
